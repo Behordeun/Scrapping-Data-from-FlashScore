@@ -1,0 +1,167 @@
+Match,Home Team,Away Team,First Half Score,Second Half Score,Ball Possession Home,Ball Possession Away,Goal Attempts Home,Goal Attempts Away,Shots on Goal Home,Shots on Goal Away,Shots off Goal Home,Shots off Goal Away,Blocked Shots Home,Blocked Shots Away,Free Kicks Home,Free Kicks Away,Corner Kicks Home,Corner Kicks Away,Offsides Home,Offsides Away,Throw-in Home,Throw-in Away,Goalkeeper Saves Home,Goalkeeper Saves Away,Fouls Home,Fouls Away,Yellow Cards Home,Yellow Cards Away,Total Passes Home,Total Passes Away,Completed Passes Home,Completed Passes Away,Tackles Home,Tackles Away,Attacks Home,Attacks Away,Event,Minute,Scorer,Assist,Goal Status
+Everton VS Crystal Palace,Everton,Crystal Palace,1 - 0,2 - 0,46%,54%,9,9,6,2,1,4,2,3,16,17,3,4,1,2,29,22,2,3,16,14,3,4,378,438,308,371,26,19,110,75,Home Event_1,11, Calvert-Lewin D., Iwobi A., False
+Manchester City VS Brighton,Manchester City,Brighton,2 - 0,1 - 1,48%,52%,10,8,4,2,3,3,3,3,14,10,6,3,0,4,9,20,1,1,11,12,1,3,428,466,352,394,13,16,92,85,Home Event_1,22, Haaland E., Ederson, False
+Nottingham VS Liverpool,Nottingham,Liverpool,0 - 0,1 - 0,25%,75%,10,15,7,7,1,7,2,1,7,17,2,11,3,0,13,30,7,6,14,8,2,1,227,691,144,586,19,14,65,128,Home Event_1,55, Awoniyi T., Not assisted, False
+Leicester VS Leeds,Leicester,Leeds,2 - 0,0 - 0,47%,53%,5,14,1,2,1,8,3,4,13,16,2,9,4,2,17,29,2,0,15,11,2,1,461,518,361,406,26,30,99,115,Home Event_1,16, Koch R., NA, True
+Fulham VS Aston Villa,Fulham,Aston Villa,1 - 0,2 - 0,61%,39%,18,12,8,6,5,3,5,3,9,11,9,7,0,3,23,17,6,6,11,11,0,1,0,2,482,311,413,241,12,14,Home Event_1,36, Reed H., Not assisted, False
+Manchester Utd VS Tottenham,Manchester Utd,Tottenham,0 - 0,2 - 0,52%,48%,28,9,10,2,9,5,9,2,5,12,8,3,4,0,17,15,2,8,7,7,1,0,583,528,498,445,17,12,134,95,Home Event_1,47, Fred, Sancho J., False
+Liverpool VS West Ham,Liverpool,West Ham,1 - 0,0 - 0,54%,46%,22,8,7,3,8,4,7,1,8,8,8,3,1,0,21,22,3,6,9,8,600,510,511,412,13,15,124,95,42,39,Home Event_1,22, Nunez D., Tsimikas K., False
+Southampton VS West Ham,Southampton,West Ham,1 - 0,0 - 1,39%,61%,10,25,8,4,1,9,1,12,3,6,4,14,1,0,19,20,3,7,7,3,1,1,323,488,234,391,13,21,103,102,Home Event_1,20, Perraud R., Not assisted, False
+Fulham VS Bournemouth,Fulham,Bournemouth,1 - 2,1 - 0,69%,31%,19,10,4,6,8,4,7,0,9,9,5,6,1,0,22,15,4,2,9,11,2,0,585,268,494,182,12,14,123,75,Home Event_1,22, Diop I., Pereira A., False
+Wolves VS Nottingham,Wolves,Nottingham,0 - 0,1 - 0,58%,42%,9,10,2,2,5,6,2,2,13,18,4,5,2,1,19,19,2,1,17,13,2,2,435,313,350,221,17,16,96,76,Home Event_1,56, Neves R., Penalty, False
+Brentford VS Brighton,Brentford,Brighton,1 - 0,1 - 0,28%,72%,7,21,3,7,4,4,0,10,17,12,2,11,0,3,13,20,7,1,12,15,3,1,235,611,157,520,12,25,66,124,Home Event_1,27, Toney I., Onyeka F., False
+Nottingham VS Aston Villa,Nottingham,Aston Villa,1 - 1,0 - 0,40%,60%,6,12,3,2,1,2,2,8,21,10,1,4,0,3,23,22,1,2,13,19,3,3,333,506,246,436,14,21,91,108,Home Event_1,15, Dennis E., Gibbs-White M., False
+Everton VS Manchester Utd,Everton,Manchester Utd,1 - 2,0 - 0,39%,61%,11,12,2,4,3,5,6,3,17,7,5,4,1,4,13,20,2,1,7,13,2,1,375,609,295,510,9,15,93,122,Home Event_1,5, Iwobi A., Not assisted, False
+Arsenal VS Liverpool,Arsenal,Liverpool,2 - 1,1 - 1,44%,56%,11,8,7,3,1,2,3,3,14,15,4,3,3,6,14,29,1,4,11,11,1,2,386,488,302,395,16,15,78,86,Home Event_1,1, Martinelli G., Odegaard M., False
+West Ham VS Fulham,West Ham,Fulham,1 - 1,2 - 0,50%,50%,17,8,8,2,4,4,5,2,8,9,4,2,1,2,16,18,1,5,9,7,1,3,485,486,400,400,12,14,88,106,Home Event_1,29, Bowen J., Penalty, False
+Manchester City VS Southampton,Manchester City,Southampton,2 - 0,2 - 0,66%,34%,21,5,8,0,9,3,4,2,9,5,9,1,1,1,12,10,0,4,4,8,0,1,744,393,665,317,15,19,121,85,Home Event_1,20, Cancelo J., Foden P., False
+Newcastle VS Brentford,Newcastle,Brentford,2 - 0,3 - 1,54%,46%,16,6,6,3,4,1,6,2,12,15,9,5,1,3,19,14,2,2,14,9,0,1,389,320,309,239,16,11,83,88,Home Event_1,21, Guimaraes B., Trippier K., False
+Leicester VS Nottingham,Leicester,Nottingham,3 - 0,1 - 0,52%,48%,17,10,7,3,7,5,3,2,14,14,6,6,3,4,13,19,3,3,13,12,2,4,492,464,416,363,11,14,106,91,Home Event_1,25, Maddison J., Not assisted, False
+Manchester City VS Manchester Utd,Manchester City,Manchester Utd,4 - 0,2 - 3,54%,46%,22,12,10,8,6,1,6,3,7,2,5,1,1,0,11,18,5,4,3,9,0,3,551,476,485,408,14,14,94,81,Home Event_1,8, Foden P., Silva B., False
+West Ham VS Wolves,West Ham,Wolves,1 - 0,1 - 0,39%,61%,18,15,5,4,5,7,8,4,6,8,1,6,2,1,11,22,4,3,9,6,2,2,372,564,301,492,23,12,88,127,Home Event_1,29, Scamacca G., Not assisted, False
+Crystal Palace VS Chelsea,Crystal Palace,Chelsea,1 - 1,0 - 1,36%,64%,7,13,3,3,4,7,0,3,11,12,5,2,1,0,15,27,1,2,11,13,1,3,348,635,271,559,18,16,73,123,Home Event_1,7, Edouard O., Ayew J., False
+Liverpool VS Brighton,Liverpool,Brighton,1 - 2,2 - 1,54%,46%,15,6,7,6,6,0,2,0,13,10,9,2,1,0,26,16,3,4,9,13,1,1,530,460,432,358,15,23,143,72,Home Event_1,33, Firmino R., Salah M., False
+Arsenal VS Tottenham,Arsenal,Tottenham,1 - 1,2 - 0,65%,35%,22,7,9,3,9,2,4,2,14,10,5,2,1,3,18,17,2,6,10,10,0,1,2,1,565,307,511,240,14,16,Home Event_1,20, Partey T., White B., False
+Tottenham VS Leicester,Tottenham,Leicester,2 - 2,4 - 0,44%,56%,16,19,11,7,2,7,3,5,11,9,6,1,1,0,18,10,5,5,9,9,0,2,482,632,403,552,14,16,68,146,Home Event_1,8, Kane H., Kulusevski D., False
+Newcastle VS Bournemouth,Newcastle,Bournemouth,0 - 0,1 - 1,72%,28%,20,10,7,3,8,5,5,2,5,11,8,1,3,1,26,15,2,6,10,11,2,2,643,245,556,165,16,18,155,63,Home Event_1,67, Isak A., Penalty, False
+Aston Villa VS Southampton,Aston Villa,Southampton,1 - 0,0 - 0,53%,47%,11,7,3,1,3,3,5,3,13,15,6,3,1,0,28,25,1,2,13,13,3,1,420,376,312,277,35,28,146,106,Home Event_1,41, Ramsey J., Not assisted, False
+Nottingham VS Fulham,Nottingham,Fulham,1 - 0,1 - 3,41%,59%,11,15,3,7,5,3,3,5,11,12,2,10,2,2,19,14,4,1,11,10,2,4,375,555,279,460,10,12,83,132,Home Event_1,11, Awoniyi T., Yates R., False
+Manchester Utd VS Arsenal,Manchester Utd,Arsenal,1 - 0,2 - 1,39%,61%,10,16,6,3,3,8,1,5,8,14,2,5,4,0,18,18,2,3,13,9,3,3,310,465,240,386,17,14,68,119,Home Event_1,35, Antony, Rashford M., False
+Brighton VS Leicester,Brighton,Leicester,2 - 2,3 - 0,54%,46%,23,6,11,4,5,1,7,1,6,8,10,1,2,3,15,19,2,6,6,8,1,1,493,436,416,345,17,13,118,70,Home Event_1,10, Thomas L., NA, True
+Brentford VS Leeds,Brentford,Leeds,2 - 1,3 - 1,31%,69%,14,17,8,6,5,7,1,4,5,7,2,6,1,1,20,25,4,3,8,9,2,2,218,488,137,385,24,24,69,129,Home Event_1,30, Toney I., Penalty, False
+Nottingham VS Bournemouth,Nottingham,Bournemouth,2 - 0,0 - 3,52%,48%,11,8,3,3,3,2,5,3,10,13,4,6,1,1,20,29,0,1,13,10,2,1,486,442,388,352,13,12,109,87,Home Event_1,33, Kouyate C., Gibbs-White M., False
+Bournemouth VS Southampton,Bournemouth,Southampton,0 - 1,0 - 0,53%,47%,15,9,3,3,8,2,4,4,11,10,7,3,2,0,24,19,2,3,8,13,1,3,529,464,433,376,13,23,138,101,Away Event_1,9, Adams C., Perraud R., False
+Crystal Palace VS Wolves,Crystal Palace,Wolves,0 - 1,2 - 0,51%,49%,14,10,4,4,5,5,5,1,18,14,4,2,0,4,23,16,3,2,14,18,3,1,449,428,370,340,23,29,107,92,Away Event_1,31, Traore A., Bueno H., False
+Aston Villa VS Chelsea,Aston Villa,Chelsea,0 - 1,0 - 1,41%,59%,18,8,7,4,7,3,4,1,12,16,7,1,3,1,25,21,2,7,12,11,0,3,353,548,274,460,24,9,95,112,Away Event_1,6, Mount M., Not assisted, False
+Leeds VS Arsenal,Leeds,Arsenal,0 - 1,0 - 0,47%,53%,16,9,4,4,5,2,7,3,8,10,6,3,4,0,21,20,3,4,10,11,0,2,428,500,328,415,25,17,91,106,Away Event_1,35, Saka B., Odegaard M., False
+Fulham VS Bournemouth,Fulham,Bournemouth,1 - 2,1 - 0,69%,31%,19,10,4,6,8,4,7,0,9,9,5,6,1,0,22,15,4,2,9,11,2,0,585,268,494,182,12,14,123,75,Away Event_1,2, Solanke D., Billing P., False
+Nottingham VS Aston Villa,Nottingham,Aston Villa,1 - 1,0 - 0,40%,60%,6,12,3,2,1,2,2,8,21,10,1,4,0,3,23,22,1,2,13,19,3,3,333,506,246,436,14,21,91,108,Away Event_1,22, Young A., Not assisted, False
+Everton VS Manchester Utd,Everton,Manchester Utd,1 - 2,0 - 0,39%,61%,11,12,2,4,3,5,6,3,17,7,5,4,1,4,13,20,2,1,7,13,2,1,375,609,295,510,9,15,93,122,Away Event_1,15, Antony, Martial A., False
+Crystal Palace VS Leeds,Crystal Palace,Leeds,1 - 1,1 - 0,55%,45%,13,10,5,4,5,2,3,4,22,11,5,3,2,2,29,32,3,3,13,23,3,3,418,345,321,222,18,29,85,124,Away Event_1,10, Struijk P., Not assisted, False
+West Ham VS Fulham,West Ham,Fulham,1 - 1,2 - 0,50%,50%,17,8,8,2,4,4,5,2,8,9,4,2,1,2,16,18,1,5,9,7,1,3,485,486,400,400,12,14,88,106,Away Event_1,5, Pereira A., Kebano N., False
+Bournemouth VS Leicester,Bournemouth,Leicester,0 - 1,2 - 0,44%,56%,10,9,4,5,2,2,4,2,16,11,7,2,3,0,26,15,4,2,8,16,1,2,424,551,359,475,13,32,98,109,Away Event_1,10, Daka P., Not assisted, False
+Fulham VS Newcastle,Fulham,Newcastle,0 - 3,1 - 1,31%,69%,4,19,1,10,2,4,1,5,17,12,1,8,4,8,17,13,6,0,8,9,1,0,2,0,281,605,190,530,13,15,Away Event_1,11, Wilson C., Willock J., False
+Liverpool VS Brighton,Liverpool,Brighton,1 - 2,2 - 1,54%,46%,15,6,7,6,6,0,2,0,13,10,9,2,1,0,26,16,3,4,9,13,1,1,530,460,432,358,15,23,143,72,Away Event_1,4, Trossard L., Welbeck D., False
+Southampton VS Everton,Southampton,Everton,0 - 0,1 - 2,54%,46%,22,12,6,5,9,4,7,3,11,11,7,6,0,1,32,15,3,5,11,10,2,2,445,380,362,295,22,23,100,102,Away Event_1,52, Coady C., Onana A., False
+Arsenal VS Tottenham,Arsenal,Tottenham,1 - 1,2 - 0,65%,35%,22,7,9,3,9,2,4,2,14,10,5,2,1,3,18,17,2,6,10,10,0,1,2,1,565,307,511,240,14,16,Away Event_1,31, Kane H., Penalty, False
+Brentford VS Arsenal,Brentford,Arsenal,0 - 2,0 - 1,36%,64%,5,13,2,7,3,4,0,2,10,12,3,3,3,1,19,18,4,2,10,10,0,2,321,592,232,504,21,12,79,152,Away Event_1,17, Saliba W., Saka B., False
+Tottenham VS Leicester,Tottenham,Leicester,2 - 2,4 - 0,44%,56%,16,19,11,7,2,7,3,5,11,9,6,1,1,0,18,10,5,5,9,9,0,2,482,632,403,552,14,16,68,146,Away Event_1,6, Tielemans Y., Penalty, False
+Wolves VS Manchester City,Wolves,Manchester City,0 - 2,0 - 1,41%,59%,6,16,1,7,4,5,1,4,10,8,5,7,0,1,17,16,4,1,7,9,1,0,2,1,422,622,353,563,19,19,Away Event_1,1, Grealish J., De Bruyne K., False
+Brighton VS Leicester,Brighton,Leicester,2 - 2,3 - 0,54%,46%,23,6,11,4,5,1,7,1,6,8,10,1,2,3,15,19,2,6,6,8,1,1,493,436,416,345,17,13,118,70,Away Event_1,1, Iheanacho K., Daka P., False
+Aston Villa VS Manchester City,Aston Villa,Manchester City,0 - 0,1 - 1,28%,72%,3,13,1,4,1,5,1,4,15,20,1,4,5,3,25,26,3,0,7,6,2,0,287,763,194,666,15,13,59,156,Away Event_1,50, Haaland E., De Bruyne K., False
+Everton VS Crystal Palace,Everton,Crystal Palace,1 - 0,2 - 0,46%,54%,9,9,6,2,1,4,2,3,16,17,3,4,1,2,29,22,2,3,16,14,3,4,378,438,308,371,26,19,110,75,Home Event_2, 63, Gordon A., Not assisted, False
+Manchester City VS Brighton,Manchester City,Brighton,2 - 0,1 - 1,48%,52%,10,8,4,2,3,3,3,3,14,10,6,3,0,4,9,20,1,1,11,12,1,3,428,466,352,394,13,16,92,85,Home Event_2, 43, Haaland E., Penalty, False
+Leicester VS Leeds,Leicester,Leeds,2 - 0,0 - 0,47%,53%,5,14,1,2,1,8,3,4,13,16,2,9,4,2,17,29,2,0,15,11,2,1,461,518,361,406,26,30,99,115,Home Event_2, 35, Barnes H., Dewsbury-Hall K., False
+Fulham VS Aston Villa,Fulham,Aston Villa,1 - 0,2 - 0,61%,39%,18,12,8,6,5,3,5,3,9,11,9,7,0,3,23,17,6,6,11,11,0,1,0,2,482,311,413,241,12,14,Home Event_2, 68, Mitrovic A., Penalty, False
+Newcastle VS Everton,Newcastle,Everton,1 - 0,0 - 0,50%,50%,16,1,4,0,9,1,3,0,12,9,8,2,0,3,21,29,0,3,9,12,2,4,392,412,301,314,21,18,94,100,Home Event_2, 31, Almiron M., Guimaraes B., False
+Crystal Palace VS Leeds,Crystal Palace,Leeds,1 - 1,1 - 0,55%,45%,13,10,5,4,5,2,3,4,22,11,5,3,2,2,29,32,3,3,13,23,3,3,418,345,321,222,18,29,85,124,Home Event_2, 24, Edouard O., Olise M., False
+West Ham VS Fulham,West Ham,Fulham,1 - 1,2 - 0,50%,50%,17,8,8,2,4,4,5,2,8,9,4,2,1,2,16,18,1,5,9,7,1,3,485,486,400,400,12,14,88,106,Home Event_2, 62, Scamacca G., Paqueta L., False
+Bournemouth VS Leicester,Bournemouth,Leicester,0 - 1,2 - 0,44%,56%,10,9,4,5,2,2,4,2,16,11,7,2,3,0,26,15,4,2,8,16,1,2,424,551,359,475,13,32,98,109,Home Event_2, 67, Billing P., Not assisted, False
+Chelsea VS Wolves,Chelsea,Wolves,1 - 0,2 - 0,57%,43%,20,8,7,2,10,5,3,1,9,11,4,2,3,0,19,23,2,4,8,8,2,0,591,431,517,360,26,13,107,87,Home Event_2, 45+3, Havertz K., Mount M., False
+Manchester City VS Southampton,Manchester City,Southampton,2 - 0,2 - 0,66%,34%,21,5,8,0,9,3,4,2,9,5,9,1,1,1,12,10,0,4,4,8,0,1,744,393,665,317,15,19,121,85,Home Event_2, 32, Foden P., De Bruyne K., False
+Newcastle VS Brentford,Newcastle,Brentford,2 - 0,3 - 1,54%,46%,16,6,6,3,4,1,6,2,12,15,9,5,1,3,19,14,2,2,14,9,0,1,389,320,309,239,16,11,83,88,Home Event_2, 28, Murphy J., Wilson C., False
+Leicester VS Nottingham,Leicester,Nottingham,3 - 0,1 - 0,52%,48%,17,10,7,3,7,5,3,2,14,14,6,6,3,4,13,19,3,3,13,12,2,4,492,464,416,363,11,14,106,91,Home Event_2, 27, Barnes H., Vardy J., False
+Manchester City VS Manchester Utd,Manchester City,Manchester Utd,4 - 0,2 - 3,54%,46%,22,12,10,8,6,1,6,3,7,2,5,1,1,0,11,18,5,4,3,9,0,3,551,476,485,408,14,14,94,81,Home Event_2, 34, Haaland E., De Bruyne K., False
+Southampton VS Everton,Southampton,Everton,0 - 0,1 - 2,54%,46%,22,12,6,5,9,4,7,3,11,11,7,6,0,1,32,15,3,5,11,10,2,2,445,380,362,295,22,23,100,102,Home Event_2, 49, Aribo J., Adams C., False
+Arsenal VS Tottenham,Arsenal,Tottenham,1 - 1,2 - 0,65%,35%,22,7,9,3,9,2,4,2,14,10,5,2,1,3,18,17,2,6,10,10,0,1,2,1,565,307,511,240,14,16,Home Event_2, 49, Jesus G., Not assisted, False
+Everton VS West Ham,Everton,West Ham,0 - 0,1 - 0,53%,47%,7,14,2,4,4,3,1,7,10,9,5,14,1,1,20,24,4,1,8,11,3,1,464,388,379,306,18,18,106,92,Home Event_2, 53, Maupay N., Iwobi A., False
+Tottenham VS Leicester,Tottenham,Leicester,2 - 2,4 - 0,44%,56%,16,19,11,7,2,7,3,5,11,9,6,1,1,0,18,10,5,5,9,9,0,2,482,632,403,552,14,16,68,146,Home Event_2, 21, Dier E., Perisic I., False
+Brentford VS Leeds,Brentford,Leeds,2 - 1,3 - 1,31%,69%,14,17,8,6,5,7,1,4,5,7,2,6,1,1,20,25,4,3,8,9,2,2,218,488,137,385,24,24,69,129,Home Event_2, 43, Toney I., Not assisted, False
+Nottingham VS Bournemouth,Nottingham,Bournemouth,2 - 0,0 - 3,52%,48%,11,8,3,3,3,2,5,3,10,13,4,6,1,1,20,29,0,1,13,10,2,1,486,442,388,352,13,12,109,87,Home Event_2, 45+2, Johnson B., Penalty, False
+Tottenham VS Fulham,Tottenham,Fulham,1 - 0,1 - 1,52%,48%,23,9,10,3,7,5,6,1,5,10,10,3,3,0,21,24,2,8,9,6,3,4,475,433,411,368,19,18,77,123,Home Event_2, 40, Hojbjerg P., Richarlison, False
+Wolves VS Southampton,Wolves,Southampton,1 - 0,0 - 0,51%,49%,7,12,2,1,4,7,1,4,14,9,5,6,1,0,16,16,1,1,10,14,4,2,432,406,346,315,14,20,90,120,Home Event_2, 45+1, Podence D., Matheus Nunes, False
+Fulham VS Bournemouth,Fulham,Bournemouth,1 - 2,1 - 0,69%,31%,19,10,4,6,8,4,7,0,9,9,5,6,1,0,22,15,4,2,9,11,2,0,585,268,494,182,12,14,123,75,Away Event_2, 29, Lerma J., Solanke D., False
+Arsenal VS Liverpool,Arsenal,Liverpool,2 - 1,1 - 1,44%,56%,11,8,7,3,1,2,3,3,14,15,4,3,3,6,14,29,1,4,11,11,1,2,386,488,302,395,16,15,78,86,Away Event_2, 34, Nunez D., Diaz L., False
+Brighton VS Tottenham,Brighton,Tottenham,0 - 1,0 - 0,59%,41%,14,8,4,3,5,4,5,1,17,11,6,2,2,3,19,14,2,4,9,14,1,2,694,489,610,398,17,15,136,109,Away Event_2, 22, Kane H., Son Heung-Min, False
+Crystal Palace VS Chelsea,Crystal Palace,Chelsea,1 - 1,0 - 1,36%,64%,7,13,3,3,4,7,0,3,11,12,5,2,1,0,15,27,1,2,11,13,1,3,348,635,271,559,18,16,73,123,Away Event_2, 38, Aubameyang P., Silva T., False
+Fulham VS Newcastle,Fulham,Newcastle,0 - 3,1 - 1,31%,69%,4,19,1,10,2,4,1,5,17,12,1,8,4,8,17,13,6,0,8,9,1,0,2,0,281,605,190,530,13,15,Away Event_2, 33, Almiron M., Guimaraes B., False
+Liverpool VS Brighton,Liverpool,Brighton,1 - 2,2 - 1,54%,46%,15,6,7,6,6,0,2,0,13,10,9,2,1,0,26,16,3,4,9,13,1,1,530,460,432,358,15,23,143,72,Away Event_2, 17, Trossard L., March S., False
+Southampton VS Everton,Southampton,Everton,0 - 0,1 - 2,54%,46%,22,12,6,5,9,4,7,3,11,11,7,6,0,1,32,15,3,5,11,10,2,2,445,380,362,295,22,23,100,102,Away Event_2, 54, McNeil D., Iwobi A., False
+Brentford VS Arsenal,Brentford,Arsenal,0 - 2,0 - 1,36%,64%,5,13,2,7,3,4,0,2,10,12,3,3,3,1,19,18,4,2,10,10,0,2,321,592,232,504,21,12,79,152,Away Event_2, 28, Jesus G., Xhaka G., False
+Tottenham VS Leicester,Tottenham,Leicester,2 - 2,4 - 0,44%,56%,16,19,11,7,2,7,3,5,11,9,6,1,1,0,18,10,5,5,9,9,0,2,482,632,403,552,14,16,68,146,Away Event_2, 41, Maddison J., Castagne T., False
+Nottingham VS Fulham,Nottingham,Fulham,1 - 0,1 - 3,41%,59%,11,15,3,7,5,3,3,5,11,12,2,10,2,2,19,14,4,1,11,10,2,4,375,555,279,460,10,12,83,132,Away Event_2, 54, Adarabioyo T., Willian, False
+Brentford VS Leeds,Brentford,Leeds,2 - 1,3 - 1,31%,69%,14,17,8,6,5,7,1,4,5,7,2,6,1,1,20,25,4,3,8,9,2,2,218,488,137,385,24,24,69,129,Away Event_2, 45+1, Sinisterra L., Not assisted, False
+Chelsea VS West Ham,Chelsea,West Ham,0 - 0,2 - 1,69%,31%,8,6,3,3,2,2,3,1,12,6,10,3,1,1,17,21,2,1,6,11,4,2,661,308,569,218,16,14,135,56,Away Event_2, 62, Antonio M., Not assisted, False
+Manchester Utd VS Tottenham,Manchester Utd,Tottenham,0 - 0,2 - 0,52%,48%,28,9,10,2,9,5,9,2,5,12,8,3,4,0,17,15,2,8,7,7,1,0,583,528,498,445,17,12,134,95,Home Event_3, 69, Fernandes B., Not assisted, False
+Crystal Palace VS Wolves,Crystal Palace,Wolves,0 - 1,2 - 0,51%,49%,14,10,4,4,5,5,5,1,18,14,4,2,0,4,23,16,3,2,14,18,3,1,449,428,370,340,23,29,107,92,Home Event_3, 47, Eze E., Olise M., False
+Tottenham VS Everton,Tottenham,Everton,0 - 0,2 - 0,62%,38%,21,4,7,0,6,3,8,1,12,12,7,1,0,0,21,9,0,5,12,13,1,4,583,367,514,300,8,15,129,69,Home Event_3, 59, Kane H., Penalty, False
+Arsenal VS Liverpool,Arsenal,Liverpool,2 - 1,1 - 1,44%,56%,11,8,7,3,1,2,3,3,14,15,4,3,3,6,14,29,1,4,11,11,1,2,386,488,302,395,16,15,78,86,Home Event_3, 45+5, Saka B., Martinelli G., False
+Bournemouth VS Leicester,Bournemouth,Leicester,0 - 1,2 - 0,44%,56%,10,9,4,5,2,2,4,2,16,11,7,2,3,0,26,15,4,2,8,16,1,2,424,551,359,475,13,32,98,109,Home Event_3, 71, Christie R., Solanke D., False
+Chelsea VS Wolves,Chelsea,Wolves,1 - 0,2 - 0,57%,43%,20,8,7,2,10,5,3,1,9,11,4,2,3,0,19,23,2,4,8,8,2,0,591,431,517,360,26,13,107,87,Home Event_3, 54, Pulisic C., Mount M., False
+Manchester City VS Southampton,Manchester City,Southampton,2 - 0,2 - 0,66%,34%,21,5,8,0,9,3,4,2,9,5,9,1,1,1,12,10,0,4,4,8,0,1,744,393,665,317,15,19,121,85,Home Event_3, 49, Mahrez R., Rodri, False
+Newcastle VS Brentford,Newcastle,Brentford,2 - 0,3 - 1,54%,46%,16,6,6,3,4,1,6,2,12,15,9,5,1,3,19,14,2,2,14,9,0,1,389,320,309,239,16,11,83,88,Home Event_3, 56, Guimaraes B., Not assisted, False
+Leicester VS Nottingham,Leicester,Nottingham,3 - 0,1 - 0,52%,48%,17,10,7,3,7,5,3,2,14,14,6,6,3,4,13,19,3,3,13,12,2,4,492,464,416,363,11,14,106,91,Home Event_3, 35, Maddison J., Not assisted, False
+Manchester City VS Manchester Utd,Manchester City,Manchester Utd,4 - 0,2 - 3,54%,46%,22,12,10,8,6,1,6,3,7,2,5,1,1,0,11,18,5,4,3,9,0,3,551,476,485,408,14,14,94,81,Home Event_3, 37, Haaland E., De Bruyne K., False
+Liverpool VS Brighton,Liverpool,Brighton,1 - 2,2 - 1,54%,46%,15,6,7,6,6,0,2,0,13,10,9,2,1,0,26,16,3,4,9,13,1,1,530,460,432,358,15,23,143,72,Home Event_3, 54, Firmino R., Diaz L., False
+Arsenal VS Tottenham,Arsenal,Tottenham,1 - 1,2 - 0,65%,35%,22,7,9,3,9,2,4,2,14,10,5,2,1,3,18,17,2,6,10,10,0,1,2,1,565,307,511,240,14,16,Home Event_3, 67, Xhaka G., Martinelli G., False
+Tottenham VS Leicester,Tottenham,Leicester,2 - 2,4 - 0,44%,56%,16,19,11,7,2,7,3,5,11,9,6,1,1,0,18,10,5,5,9,9,0,2,482,632,403,552,14,16,68,146,Home Event_3, 47, Bentancur R., Not assisted, False
+Manchester Utd VS Arsenal,Manchester Utd,Arsenal,1 - 0,2 - 1,39%,61%,10,16,6,3,3,8,1,5,8,14,2,5,4,0,18,18,2,3,13,9,3,3,310,465,240,386,17,14,68,119,Home Event_3, 66, Rashford M., Fernandes B., False
+Brighton VS Leicester,Brighton,Leicester,2 - 2,3 - 0,54%,46%,23,6,11,4,5,1,7,1,6,8,10,1,2,3,15,19,2,6,6,8,1,1,493,436,416,345,17,13,118,70,Home Event_3, 15, Caicedo M., Mwepu E., False
+Brentford VS Leeds,Brentford,Leeds,2 - 1,3 - 1,31%,69%,14,17,8,6,5,7,1,4,5,7,2,6,1,1,20,25,4,3,8,9,2,2,218,488,137,385,24,24,69,129,Home Event_3, 58, Toney I., Not assisted, False
+Manchester City VS Brighton,Manchester City,Brighton,2 - 0,1 - 1,48%,52%,10,8,4,2,3,3,3,3,14,10,6,3,0,4,9,20,1,1,11,12,1,3,428,466,352,394,13,16,92,85,Away Event_3, 53, Trossard L., March S., False
+Southampton VS West Ham,Southampton,West Ham,1 - 0,0 - 1,39%,61%,10,25,8,4,1,9,1,12,3,6,4,14,1,0,19,20,3,7,7,3,1,1,323,488,234,391,13,21,103,102,Away Event_3, 64, Rice D., Benrahma S., False
+Everton VS Manchester Utd,Everton,Manchester Utd,1 - 2,0 - 0,39%,61%,11,12,2,4,3,5,6,3,17,7,5,4,1,4,13,20,2,1,7,13,2,1,375,609,295,510,9,15,93,122,Away Event_3, 44, Ronaldo C., Casemiro, False
+Fulham VS Newcastle,Fulham,Newcastle,0 - 3,1 - 1,31%,69%,4,19,1,10,2,4,1,5,17,12,1,8,4,8,17,13,6,0,8,9,1,0,2,0,281,605,190,530,13,15,Away Event_3, 43, Longstaff S., Not assisted, False
+Brentford VS Arsenal,Brentford,Arsenal,0 - 2,0 - 1,36%,64%,5,13,2,7,3,4,0,2,10,12,3,3,3,1,19,18,4,2,10,10,0,2,321,592,232,504,21,12,79,152,Away Event_3, 49, Vieira F., Saka B., False
+Newcastle VS Bournemouth,Newcastle,Bournemouth,0 - 0,1 - 1,72%,28%,20,10,7,3,8,5,5,2,5,11,8,1,3,1,26,15,2,6,10,11,2,2,643,245,556,165,16,18,155,63,Away Event_3, 62, Billing P., Zemura J., False
+Wolves VS Manchester City,Wolves,Manchester City,0 - 2,0 - 1,41%,59%,6,16,1,7,4,5,1,4,10,8,5,7,0,1,17,16,4,1,7,9,1,0,2,1,422,622,353,563,19,19,Away Event_3, 16, Haaland E., Silva B., False
+Nottingham VS Fulham,Nottingham,Fulham,1 - 0,1 - 3,41%,59%,11,15,3,7,5,3,3,5,11,12,2,10,2,2,19,14,4,1,11,10,2,4,375,555,279,460,10,12,83,132,Away Event_3, 57, Palhinha J., Tete K., False
+Manchester Utd VS Arsenal,Manchester Utd,Arsenal,1 - 0,2 - 1,39%,61%,10,16,6,3,3,8,1,5,8,14,2,5,4,0,18,18,2,3,13,9,3,3,310,465,240,386,17,14,68,119,Away Event_3, 60, Saka B., Not assisted, False
+Brighton VS Leicester,Brighton,Leicester,2 - 2,3 - 0,54%,46%,23,6,11,4,5,1,7,1,6,8,10,1,2,3,15,19,2,6,6,8,1,1,493,436,416,345,17,13,118,70,Away Event_3, 33, Daka P., Tielemans Y., False
+Nottingham VS Bournemouth,Nottingham,Bournemouth,2 - 0,0 - 3,52%,48%,11,8,3,3,3,2,5,3,10,13,4,6,1,1,20,29,0,1,13,10,2,1,486,442,388,352,13,12,109,87,Away Event_3, 51, Billing P., Cook L., False
+Crystal Palace VS Wolves,Crystal Palace,Wolves,0 - 1,2 - 0,51%,49%,14,10,4,4,5,5,5,1,18,14,4,2,0,4,23,16,3,2,14,18,3,1,449,428,370,340,23,29,107,92,Home Event_4, 70, Zaha W., Edouard O., False
+Tottenham VS Everton,Tottenham,Everton,0 - 0,2 - 0,62%,38%,21,4,7,0,6,3,8,1,12,12,7,1,0,0,21,9,0,5,12,13,1,4,583,367,514,300,8,15,129,69,Home Event_4, 86, Hojbjerg P., Bentancur R., False
+Brentford VS Brighton,Brentford,Brighton,1 - 0,1 - 0,28%,72%,7,21,3,7,4,4,0,10,17,12,2,11,0,3,13,20,7,1,12,15,3,1,235,611,157,520,12,25,66,124,Home Event_4, 64, Toney I., Penalty, False
+Arsenal VS Liverpool,Arsenal,Liverpool,2 - 1,1 - 1,44%,56%,11,8,7,3,1,2,3,3,14,15,4,3,3,6,14,29,1,4,11,11,1,2,386,488,302,395,16,15,78,86,Home Event_4, 76, Saka B., Penalty, False
+West Ham VS Wolves,West Ham,Wolves,1 - 0,1 - 0,39%,61%,18,15,5,4,5,7,8,4,6,8,1,6,2,1,11,22,4,3,9,6,2,2,372,564,301,492,23,12,88,127,Home Event_4, 54, Bowen J., Not assisted, False
+Tottenham VS Fulham,Tottenham,Fulham,1 - 0,1 - 1,52%,48%,23,9,10,3,7,5,6,1,5,10,10,3,3,0,21,24,2,8,9,6,3,4,475,433,411,368,19,18,77,123,Home Event_4, 75, Kane H., Not assisted, False
+Newcastle VS Brentford,Newcastle,Brentford,2 - 0,3 - 1,54%,46%,16,6,6,3,4,1,6,2,12,15,9,5,1,3,19,14,2,2,14,9,0,1,389,320,309,239,16,11,83,88,Away Event_4, 54, Toney I., Penalty, False
+Fulham VS Newcastle,Fulham,Newcastle,0 - 3,1 - 1,31%,69%,4,19,1,10,2,4,1,5,17,12,1,8,4,8,17,13,6,0,8,9,1,0,2,0,281,605,190,530,13,15,Away Event_4, 57, Almiron M., Willock J., False
+Wolves VS Manchester City,Wolves,Manchester City,0 - 2,0 - 1,41%,59%,6,16,1,7,4,5,1,4,10,8,5,7,0,1,17,16,4,1,7,9,1,0,2,1,422,622,353,563,19,19,Away Event_4, 69, Foden P., De Bruyne K., False
+Nottingham VS Bournemouth,Nottingham,Bournemouth,2 - 0,0 - 3,52%,48%,11,8,3,3,3,2,5,3,10,13,4,6,1,1,20,29,0,1,13,10,2,1,486,442,388,352,13,12,109,87,Away Event_4, 63, Solanke D., Kelly L., False
+Chelsea VS Manchester Utd,Chelsea,Manchester Utd,0 - 0,1 - 1,48%,52%,6,13,2,6,3,6,1,1,12,9,6,4,2,3,20,25,5,1,8,10,1,4,413,463,312,358,11,18,107,113,Home Event_5, 87, Jorginho, Penalty, False
+Manchester City VS Brighton,Manchester City,Brighton,2 - 0,1 - 1,48%,52%,10,8,4,2,3,3,3,3,14,10,6,3,0,4,9,20,1,1,11,12,1,3,428,466,352,394,13,16,92,85,Home Event_5, 75, De Bruyne K., Silva B., False
+Fulham VS Aston Villa,Fulham,Aston Villa,1 - 0,2 - 0,61%,39%,18,12,8,6,5,3,5,3,9,11,9,7,0,3,23,17,6,6,11,11,0,1,0,2,482,311,413,241,12,14,Home Event_5, 84, Mings T., NA, True
+Liverpool VS Manchester City,Liverpool,Manchester City,0 - 0,1 - 0,37%,63%,13,16,2,6,8,4,3,6,6,13,5,6,3,0,14,19,6,1,10,7,3,1,407,702,313,616,23,20,67,137,Home Event_5, 76, Salah M., Alisson, False
+Fulham VS Bournemouth,Fulham,Bournemouth,1 - 2,1 - 0,69%,31%,19,10,4,6,8,4,7,0,9,9,5,6,1,0,22,15,4,2,9,11,2,0,585,268,494,182,12,14,123,75,Home Event_5, 52, Mitrovic A., Penalty, False
+Manchester City VS Southampton,Manchester City,Southampton,2 - 0,2 - 0,66%,34%,21,5,8,0,9,3,4,2,9,5,9,1,1,1,12,10,0,4,4,8,0,1,744,393,665,317,15,19,121,85,Home Event_5, 65, Haaland E., Cancelo J., False
+Manchester City VS Manchester Utd,Manchester City,Manchester Utd,4 - 0,2 - 3,54%,46%,22,12,10,8,6,1,6,3,7,2,5,1,1,0,11,18,5,4,3,9,0,3,551,476,485,408,14,14,94,81,Home Event_5, 44, Foden P., Haaland E., False
+Brighton VS Leicester,Brighton,Leicester,2 - 2,3 - 0,54%,46%,23,6,11,4,5,1,7,1,6,8,10,1,2,3,15,19,2,6,6,8,1,1,493,436,416,345,17,13,118,70,Home Event_5, 64, Trossard L., Gross P., False
+Aston Villa VS Manchester City,Aston Villa,Manchester City,0 - 0,1 - 1,28%,72%,3,13,1,4,1,5,1,4,15,20,1,4,5,3,25,26,3,0,7,6,2,0,287,763,194,666,15,13,59,156,Home Event_5, 74, Bailey L., Ramsey J., False
+Arsenal VS Liverpool,Arsenal,Liverpool,2 - 1,1 - 1,44%,56%,11,8,7,3,1,2,3,3,14,15,4,3,3,6,14,29,1,4,11,11,1,2,386,488,302,395,16,15,78,86,Away Event_5, 53, Firmino R., Diogo Jota, False
+Manchester City VS Manchester Utd,Manchester City,Manchester Utd,4 - 0,2 - 3,54%,46%,22,12,10,8,6,1,6,3,7,2,5,1,1,0,11,18,5,4,3,9,0,3,551,476,485,408,14,14,94,81,Away Event_5, 56, Antony, Eriksen C., False
+Nottingham VS Fulham,Nottingham,Fulham,1 - 0,1 - 3,41%,59%,11,15,3,7,5,3,3,5,11,12,2,10,2,2,19,14,4,1,11,10,2,4,375,555,279,460,10,12,83,132,Away Event_5, 60, Reed H., Reid B., False
+Crystal Palace VS Leeds,Crystal Palace,Leeds,1 - 1,1 - 0,55%,45%,13,10,5,4,5,2,3,4,22,11,5,3,2,2,29,32,3,3,13,23,3,3,418,345,321,222,18,29,85,124,Home Event_6, 76, Eze E., Zaha W., False
+West Ham VS Fulham,West Ham,Fulham,1 - 1,2 - 0,50%,50%,17,8,8,2,4,4,5,2,8,9,4,2,1,2,16,18,1,5,9,7,1,3,485,486,400,400,12,14,88,106,Home Event_6, 90+1, Antonio M., Not assisted, False
+Newcastle VS Brentford,Newcastle,Brentford,2 - 0,3 - 1,54%,46%,16,6,6,3,4,1,6,2,12,15,9,5,1,3,19,14,2,2,14,9,0,1,389,320,309,239,16,11,83,88,Home Event_6, 82, Almiron M., Not assisted, False
+Manchester City VS Manchester Utd,Manchester City,Manchester Utd,4 - 0,2 - 3,54%,46%,22,12,10,8,6,1,6,3,7,2,5,1,1,0,11,18,5,4,3,9,0,3,551,476,485,408,14,14,94,81,Home Event_6, 64, Haaland E., Gomez S., False
+Liverpool VS Brighton,Liverpool,Brighton,1 - 2,2 - 1,54%,46%,15,6,7,6,6,0,2,0,13,10,9,2,1,0,26,16,3,4,9,13,1,1,530,460,432,358,15,23,143,72,Home Event_6, 63, Webster A., NA, True
+Manchester Utd VS Arsenal,Manchester Utd,Arsenal,1 - 0,2 - 1,39%,61%,10,16,6,3,3,8,1,5,8,14,2,5,4,0,18,18,2,3,13,9,3,3,310,465,240,386,17,14,68,119,Home Event_6, 75, Rashford M., Eriksen C., False
+Brighton VS Leicester,Brighton,Leicester,2 - 2,3 - 0,54%,46%,23,6,11,4,5,1,7,1,6,8,10,1,2,3,15,19,2,6,6,8,1,1,493,436,416,345,17,13,118,70,Home Event_6, 71, Mac Allister A., Penalty, False
+Liverpool VS Brighton,Liverpool,Brighton,1 - 2,2 - 1,54%,46%,15,6,7,6,6,0,2,0,13,10,9,2,1,0,26,16,3,4,9,13,1,1,530,460,432,358,15,23,143,72,Away Event_6, 83, Trossard L., Not assisted, False
+Nottingham VS Bournemouth,Nottingham,Bournemouth,2 - 0,0 - 3,52%,48%,11,8,3,3,3,2,5,3,10,13,4,6,1,1,20,29,0,1,13,10,2,1,486,442,388,352,13,12,109,87,Away Event_6, 87, Anthony J., Solanke D., False
+Leicester VS Nottingham,Leicester,Nottingham,3 - 0,1 - 0,52%,48%,17,10,7,3,7,5,3,2,14,14,6,6,3,4,13,19,3,3,13,12,2,4,492,464,416,363,11,14,106,91,Home Event_7, 73, Daka P., Maddison J., False
+Manchester City VS Manchester Utd,Manchester City,Manchester Utd,4 - 0,2 - 3,54%,46%,22,12,10,8,6,1,6,3,7,2,5,1,1,0,11,18,5,4,3,9,0,3,551,476,485,408,14,14,94,81,Home Event_7, 73, Foden P., Haaland E., False
+Brentford VS Leeds,Brentford,Leeds,2 - 1,3 - 1,31%,69%,14,17,8,6,5,7,1,4,5,7,2,6,1,1,20,25,4,3,8,9,2,2,218,488,137,385,24,24,69,129,Home Event_7, 80, Mbeumo B., Not assisted, False
+Everton VS Crystal Palace,Everton,Crystal Palace,1 - 0,2 - 0,46%,54%,9,9,6,2,1,4,2,3,16,17,3,4,1,2,29,22,2,3,16,14,3,4,378,438,308,371,26,19,110,75,Home Event_8, 84, McNeil D., Iwobi A., False
+Fulham VS Newcastle,Fulham,Newcastle,0 - 3,1 - 1,31%,69%,4,19,1,10,2,4,1,5,17,12,1,8,4,8,17,13,6,0,8,9,1,0,2,0,281,605,190,530,13,15,Home Event_8, 88, Reid B., Kebano N., False
+Tottenham VS Leicester,Tottenham,Leicester,2 - 2,4 - 0,44%,56%,16,19,11,7,2,7,3,5,11,9,6,1,1,0,18,10,5,5,9,9,0,2,482,632,403,552,14,16,68,146,Home Event_8, 73, Son Heung-Min, Bentancur R., False
+Nottingham VS Fulham,Nottingham,Fulham,1 - 0,1 - 3,41%,59%,11,15,3,7,5,3,3,5,11,12,2,10,2,2,19,14,4,1,11,10,2,4,375,555,279,460,10,12,83,132,Home Event_8, 77," ""OBrien L.""", Not assisted, False
+Chelsea VS West Ham,Chelsea,West Ham,0 - 0,2 - 1,69%,31%,8,6,3,3,2,2,3,1,12,6,10,3,1,1,17,21,2,1,6,11,4,2,661,308,569,218,16,14,135,56,Home Event_8, 76, Chilwell B., Silva T., False
+Chelsea VS Manchester Utd,Chelsea,Manchester Utd,0 - 0,1 - 1,48%,52%,6,13,2,6,3,6,1,1,12,9,6,4,2,3,20,25,5,1,8,10,1,4,413,463,312,358,11,18,107,113,Away Event_8, 90+4, Casemiro, Shaw L., False
+Aston Villa VS Chelsea,Aston Villa,Chelsea,0 - 1,0 - 1,41%,59%,18,8,7,4,7,3,4,1,12,16,7,1,3,1,25,21,2,7,12,11,0,3,353,548,274,460,24,9,95,112,Away Event_8, 65, Mount M., Not assisted, False
+Brentford VS Leeds,Brentford,Leeds,2 - 1,3 - 1,31%,69%,14,17,8,6,5,7,1,4,5,7,2,6,1,1,20,25,4,3,8,9,2,2,218,488,137,385,24,24,69,129,Away Event_8, 79, Roca M., Ayling L., False
+Tottenham VS Fulham,Tottenham,Fulham,1 - 0,1 - 1,52%,48%,23,9,10,3,7,5,6,1,5,10,10,3,3,0,21,24,2,8,9,6,3,4,475,433,411,368,19,18,77,123,Away Event_8, 83, Mitrovic A., Tete K., False
+Tottenham VS Leicester,Tottenham,Leicester,2 - 2,4 - 0,44%,56%,16,19,11,7,2,7,3,5,11,9,6,1,1,0,18,10,5,5,9,9,0,2,482,632,403,552,14,16,68,146,Home Event_9, 73, False, Not on pitch, Unsportsmanlike conduct
+Crystal Palace VS Chelsea,Crystal Palace,Chelsea,1 - 1,0 - 1,36%,64%,7,13,3,3,4,7,0,3,11,12,5,2,1,0,15,27,1,2,11,13,1,3,348,635,271,559,18,16,73,123,Away Event_9, 90, Gallagher C., Pulisic C., False
+Chelsea VS Wolves,Chelsea,Wolves,1 - 0,2 - 0,57%,43%,20,8,7,2,10,5,3,1,9,11,4,2,3,0,19,23,2,4,8,8,2,0,591,431,517,360,26,13,107,87,Home Event_10, 89, Broja A., Kovacic M., False
+Newcastle VS Brentford,Newcastle,Brentford,2 - 0,3 - 1,54%,46%,16,6,6,3,4,1,6,2,12,15,9,5,1,3,19,14,2,2,14,9,0,1,389,320,309,239,16,11,83,88,Home Event_10, 90, Pinnock E., NA, True
+Tottenham VS Leicester,Tottenham,Leicester,2 - 2,4 - 0,44%,56%,16,19,11,7,2,7,3,5,11,9,6,1,1,0,18,10,5,5,9,9,0,2,482,632,403,552,14,16,68,146,Home Event_10, 84, Son Heung-Min, Kane H., False
+Brentford VS Leeds,Brentford,Leeds,2 - 1,3 - 1,31%,69%,14,17,8,6,5,7,1,4,5,7,2,6,1,1,20,25,4,3,8,9,2,2,218,488,137,385,24,24,69,129,Home Event_10, 90+1, Wissa Y., Not assisted, False
+Chelsea VS West Ham,Chelsea,West Ham,0 - 0,2 - 1,69%,31%,8,6,3,3,2,2,3,1,12,6,10,3,1,1,17,21,2,1,6,11,4,2,661,308,569,218,16,14,135,56,Home Event_10, 88, Havertz K., Chilwell B., False
+Manchester City VS Manchester Utd,Manchester City,Manchester Utd,4 - 0,2 - 3,54%,46%,22,12,10,8,6,1,6,3,7,2,5,1,1,0,11,18,5,4,3,9,0,3,551,476,485,408,14,14,94,81,Away Event_10, 84, Martial A., Not assisted, False
+Tottenham VS Leicester,Tottenham,Leicester,2 - 2,4 - 0,44%,56%,16,19,11,7,2,7,3,5,11,9,6,1,1,0,18,10,5,5,9,9,0,2,482,632,403,552,14,16,68,146,Home Event_11, 86, Son Heung-Min, Hojbjerg P., False
+Brighton VS Leicester,Brighton,Leicester,2 - 2,3 - 0,54%,46%,23,6,11,4,5,1,7,1,6,8,10,1,2,3,15,19,2,6,6,8,1,1,493,436,416,345,17,13,118,70,Home Event_11, 90+7, Mac Allister A., Not assisted, False
+Manchester City VS Manchester Utd,Manchester City,Manchester Utd,4 - 0,2 - 3,54%,46%,22,12,10,8,6,1,6,3,7,2,5,1,1,0,11,18,5,4,3,9,0,3,551,476,485,408,14,14,94,81,Away Event_11, 90+1, Martial A., Penalty, False
+Tottenham VS Leicester,Tottenham,Leicester,2 - 2,4 - 0,44%,56%,16,19,11,7,2,7,3,5,11,9,6,1,1,0,18,10,5,5,9,9,0,2,482,632,403,552,14,16,68,146,Home Event_11, 86, Son Heung-Min, Hojbjerg P., False
+Brighton VS Leicester,Brighton,Leicester,2 - 2,3 - 0,54%,46%,23,6,11,4,5,1,7,1,6,8,10,1,2,3,15,19,2,6,6,8,1,1,493,436,416,345,17,13,118,70,Home Event_11, 90+7, Mac Allister A., Not assisted, False
