@@ -31,7 +31,7 @@ options = Options()
 options.add_argument('--headless') # Prevents the engine from launching an instance of the specified browser. Instead, it runs in a silent mod
 options.add_argument('--no-sandbox') # Disables sandbox, and allows the driver execute functions without constraints.
 options.add_argument('--disable-dev-shm-usage') # Prevents the driver engine from crashing
-driver = webdriver.Chrome('chromedriver', options=options)
+driver = webdriver.Chrome('chromebrowser', options=options)
 
 # %% Initiate connection to the url
 html = driver.get(url)
