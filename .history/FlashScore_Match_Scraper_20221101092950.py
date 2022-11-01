@@ -28,10 +28,10 @@ url = "https://www.flashscore.com/football/england/premier-league/results/"
 # %% Configure web driver for the scrape job
 
 options = Options()
-options.add_argument('--headless') # Prevents the engine from launching an instance of the specified browser. Instead, it runs in a silent mod
-options.add_argument('--no-sandbox') # Disables sandbox, and allows the driver execute functions without constraints.
-options.add_argument('--disable-dev-shm-usage') # Prevents the driver engine from crashing
-driver = webdriver.Chrome(options=options)
+options.add_argument('--headless')
+options.add_argument('--no-sandbox')
+options.add_argument('--disable-dev-shm-usage')
+driver = webdriver.Chrome('chromedriver', options=options)
 
 # %% Initiate connection to the url
 html = driver.get(url)
@@ -39,14 +39,12 @@ html = driver.get(url)
 sleep(5)
 
 # %% Initiate beautiful soup
-soup = bs(driver.page_source, 'lxml') # lxml is a Python library which allows for easy handling of XML and HTML files, and can also be used for web scraping.
+soup = bs(driver.page_source, 'lxml')
 
 # %% Find the class that holds soccer information
-divs = soup.find('div', {'class': 'sportName soccer'}) # Specify the parent class
+divs = soup.find('div', {'class': 'sportName soccer'})
 
 # %%  Fetch goal details
-
-
 def parse_goal(bsTag, ownGoal):
     goalTime = bsTag.find(
         'div', {'class': 'smv__timeBox'}).text.replace("'", '')
@@ -66,9 +64,7 @@ def parse_goal(bsTag, ownGoal):
         isOwnGoal = False
     return [goalTime, scorer, assist, isOwnGoal]
 
-# %% Fetch card details
-
-
+#%% Fetch card details
 def parse_card(bsTag, card_type):
     cardTime = bsTag.find(
         'div', {'class': 'smv__timeBox'}).text.replace("'", '')
@@ -80,9 +76,7 @@ def parse_card(bsTag, card_type):
     why = bsTag.find_all('div')[-1].text.replace('(', '').replace(')', '')
     return [cardTime, isRed, why]
 
-# %% Fetch substitution data
-
-
+#%% Fetch substitution data
 def parse_substitution(bsTag):
     subTime = bsTag.find(
         'div', {'class': 'smv__timeBox'}).text.replace("'", '')
@@ -122,8 +116,6 @@ for i in all_div[1:]:
         match.append(i)
 
 # %% Define a function to fetch match data
-
-
 def get_stats(all_stat):
     first_sec = []
     home_event = []
@@ -189,13 +181,10 @@ def get_stats(all_stat):
                     away_event.append(ans)
     return first_sec, home_event, away_event
 
-
 # %% Create an empty list to store the match statistics.
 stat_column = []
 
 # %% Define a column for fetch match statistics.
-
-
 def get_stats_match():
     global stat_column
     soup2 = bs(driver.page_source, 'lxml')
@@ -207,9 +196,8 @@ def get_stats_match():
         match_stat.append([temp[0], temp[2]])
         if temp[1] not in stat_column:
             stat_column.append(temp[1])
-        # print(match_stat)
+      print(match_stat)
     return match_stat
-
 
 # %% Create an empty list to store the scraped data
 all_data = []
@@ -309,27 +297,23 @@ df_away = df_away.drop('Away Events', axis=1).reset_index().merge(
 # %% Merge the separated events (home and away) into a single dataframe.
 match_data = df_home.merge(df_away.drop(
     ['First Half Score', 'Second Half Score'], axis=1), on=['Home Team', 'Away Team'])
-
-# The number of columns (events) slightly varies in each match.
-# Hence, we try to increase the number of events to 15 (bearing in mind that some will contain empty values).
-# This will ensure that our code does not break down when there are less events we have earlier specified.
 try:
-    for i in range(15):
-        if f'Home Event_{i}' in match_data:
-            match_data[f'Home Event_{i}'] = match_data[f'Home Event_{i}']
-        else:
-            match_data[f'Home Event_{i}'] = pd.Series(
-                [np.nan for x in range(len(match_data.index))]
-            )
-    for i in range(15):
-        if f'Away Event_{i}' in match_data:
-            match_data[f'Away Event_{i}'] = match_data[f'Away Event_{i}']
-        else:
-            match_data[f'Away Event_{i}'] = pd.Series(
-                [np.nan for x in range(len(match_data.index))]
-            )
+  for i in range(15):
+    if f'Home Event_{i}' in match_data:
+      match_data[f'Home Event_{i}'] = match_data[f'Home Event_{i}']
+    else:
+      match_data[f'Home Event_{i}'] = pd.Series(
+          [np.nan for x in range(len(match_data.index))]
+      )
+  for i in range(15):
+    if f'Away Event_{i}' in match_data:
+      match_data[f'Away Event_{i}'] = match_data[f'Away Event_{i}']
+    else:
+      match_data[f'Away Event_{i}'] = pd.Series(
+          [np.nan for x in range(len(match_data.index))]
+      )
 except:
-    pass
+  pass
 match_data['Match'] = match_data['Home Team'] + \
     " " + "VS" + " " + match_data['Away Team']
 match_data = match_data[['Match', 'Home Team', 'Away Team', 'First Half Score', 'Second Half Score', 'Home Event_1',

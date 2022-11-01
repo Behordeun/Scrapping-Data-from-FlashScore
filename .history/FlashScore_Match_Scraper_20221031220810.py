@@ -16,7 +16,6 @@ from bs4 import BeautifulSoup as bs
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import pandas as pd
-import numpy as np
 from time import sleep
 
 import warnings
@@ -28,10 +27,10 @@ url = "https://www.flashscore.com/football/england/premier-league/results/"
 # %% Configure web driver for the scrape job
 
 options = Options()
-options.add_argument('--headless') # Prevents the engine from launching an instance of the specified browser. Instead, it runs in a silent mod
-options.add_argument('--no-sandbox') # Disables sandbox, and allows the driver execute functions without constraints.
-options.add_argument('--disable-dev-shm-usage') # Prevents the driver engine from crashing
-driver = webdriver.Chrome(options=options)
+options.add_argument('--headless')
+options.add_argument('--no-sandbox')
+options.add_argument('--disable-dev-shm-usage')
+driver = webdriver.Chrome('chromedriver', options=options)
 
 # %% Initiate connection to the url
 html = driver.get(url)
@@ -39,14 +38,12 @@ html = driver.get(url)
 sleep(5)
 
 # %% Initiate beautiful soup
-soup = bs(driver.page_source, 'lxml') # lxml is a Python library which allows for easy handling of XML and HTML files, and can also be used for web scraping.
+soup = bs(driver.page_source, 'lxml')
 
 # %% Find the class that holds soccer information
-divs = soup.find('div', {'class': 'sportName soccer'}) # Specify the parent class
+divs = soup.find('div', {'class': 'sportName soccer'})
 
 # %%  Fetch goal details
-
-
 def parse_goal(bsTag, ownGoal):
     goalTime = bsTag.find(
         'div', {'class': 'smv__timeBox'}).text.replace("'", '')
@@ -66,9 +63,7 @@ def parse_goal(bsTag, ownGoal):
         isOwnGoal = False
     return [goalTime, scorer, assist, isOwnGoal]
 
-# %% Fetch card details
-
-
+#%% Fetch card details
 def parse_card(bsTag, card_type):
     cardTime = bsTag.find(
         'div', {'class': 'smv__timeBox'}).text.replace("'", '')
@@ -80,9 +75,7 @@ def parse_card(bsTag, card_type):
     why = bsTag.find_all('div')[-1].text.replace('(', '').replace(')', '')
     return [cardTime, isRed, why]
 
-# %% Fetch substitution data
-
-
+#%% Fetch substitution data
 def parse_substitution(bsTag):
     subTime = bsTag.find(
         'div', {'class': 'smv__timeBox'}).text.replace("'", '')
@@ -122,8 +115,6 @@ for i in all_div[1:]:
         match.append(i)
 
 # %% Define a function to fetch match data
-
-
 def get_stats(all_stat):
     first_sec = []
     home_event = []
@@ -146,7 +137,7 @@ def get_stats(all_stat):
                     else:
                         itsOwnGoal = False
                     ans = parse_goal(i, itsOwnGoal)
-#                   print(ans)
+#                     print(ans)
                     home_event.append(ans)
                 elif event_type[0] == 'card-ico':
                     try:
@@ -156,11 +147,11 @@ def get_stats(all_stat):
                             ans = parse_card(i, 'red')
                     except:
                         ans = parse_card(i, 'red')
-#                       print(ans)
+#                     print(ans)
                     home_event.append(ans)
                 else:
                     ans = parse_substitution(i)
-#                   print(ans)
+#                     print(ans)
                     home_event.append(ans)
             else:
                 event_type = i.find('svg').get('class')
@@ -170,7 +161,7 @@ def get_stats(all_stat):
                     else:
                         itsOwnGoal = False
                     ans = parse_goal(i, itsOwnGoal)
-#                   print(ans)
+#                     print(ans)
                     away_event.append(ans)
                 elif event_type[0] == 'card-ico':
                     try:
@@ -178,24 +169,21 @@ def get_stats(all_stat):
                             ans = parse_card(i, 'yellow')
                         else:
                             ans = parse_card(i, 'red')
-#                           print(ans)
+#                             print(ans)
                     except:
                         ans = parse_card(i, 'red')
-#                       print(ans)
+#                         print(ans)
                     away_event.append(ans)
                 else:
                     ans = parse_substitution(i)
-#                   print(ans)
+#                     print(ans)
                     away_event.append(ans)
     return first_sec, home_event, away_event
-
 
 # %% Create an empty list to store the match statistics.
 stat_column = []
 
 # %% Define a column for fetch match statistics.
-
-
 def get_stats_match():
     global stat_column
     soup2 = bs(driver.page_source, 'lxml')
@@ -207,9 +195,8 @@ def get_stats_match():
         match_stat.append([temp[0], temp[2]])
         if temp[1] not in stat_column:
             stat_column.append(temp[1])
-        # print(match_stat)
+#     print(match_stat)
     return match_stat
-
 
 # %% Create an empty list to store the scraped data
 all_data = []
@@ -283,8 +270,7 @@ df_home_melted = pd.melt(df_home, id_vars=[
                          'Home Team', 'Away Team', 'First Half Score',	'Second Half Score', ],
                          var_name='Event', value_name='Value')
 df_away_melted = pd.melt(df_away, id_vars=[
-                         'Home Team', 'Away Team', 'First Half Score',	'Second Half Score', ],
-                         var_name='Event', value_name='Value')
+                         'Home Team', 'Away Team', 'First Half Score',	'Second Half Score', ], var_name='Event', value_name='Value')
 
 # %% Remove the brackets from the column contents, and remove trailing commas from the texts.
 df_home_melted = df_home_melted['Value'].apply(lambda x: pd.Series(
@@ -309,42 +295,20 @@ df_away = df_away.drop('Away Events', axis=1).reset_index().merge(
 # %% Merge the separated events (home and away) into a single dataframe.
 match_data = df_home.merge(df_away.drop(
     ['First Half Score', 'Second Half Score'], axis=1), on=['Home Team', 'Away Team'])
-
-# The number of columns (events) slightly varies in each match.
-# Hence, we try to increase the number of events to 15 (bearing in mind that some will contain empty values).
-# This will ensure that our code does not break down when there are less events we have earlier specified.
-try:
-    for i in range(15):
-        if f'Home Event_{i}' in match_data:
-            match_data[f'Home Event_{i}'] = match_data[f'Home Event_{i}']
-        else:
-            match_data[f'Home Event_{i}'] = pd.Series(
-                [np.nan for x in range(len(match_data.index))]
-            )
-    for i in range(15):
-        if f'Away Event_{i}' in match_data:
-            match_data[f'Away Event_{i}'] = match_data[f'Away Event_{i}']
-        else:
-            match_data[f'Away Event_{i}'] = pd.Series(
-                [np.nan for x in range(len(match_data.index))]
-            )
-except:
-    pass
+match_data['Away Event_14'] = match_data['Home Event_14']
 match_data['Match'] = match_data['Home Team'] + \
     " " + "VS" + " " + match_data['Away Team']
 match_data = match_data[['Match', 'Home Team', 'Away Team', 'First Half Score', 'Second Half Score', 'Home Event_1',
                          'Away Event_1', 'Home Event_2', 'Away Event_2', 'Home Event_3', 'Away Event_3', 'Home Event_4',
                          'Away Event_4', 'Home Event_5', 'Away Event_5', 'Home Event_6', 'Away Event_6', 'Home Event_7',
                          'Away Event_7', 'Home Event_8', 'Away Event_8', 'Home Event_9', 'Away Event_9', 'Home Event_10',
-                         'Away Event_10', 'Home Event_11', 'Away Event_11', 'Home Event_11', 'Away Event_12', 'Home Event_13',
-                         'Away Event_13', 'Home Event_14',  'Away Event_14']]
+                         'Away Event_10', 'Home Event_11', 'Away Event_11', 'Home Event_11', 'Away Event_12', 'Home Event_13', 'Away Event_13', 'Home Event_14',  'Away Event_14']]
 
 # %% Merge the derived match data with the original dataframe.
 match_data = df.drop(['Home Events', 'Away Events'], axis=1).merge(match_data.drop(
     ['First Half Score', 'Second Half Score'], axis=1), on=['Home Team', 'Away Team'])
 
-# %% Unpivot match_data by converting the events header into a single column, and another column that hold the information.
-# This reduces the number of columns and increases the number of rows.
+# %% Unpivot match_data by converting the events header into a single column, and another column that hold the information. This reduces the number of columns and increases the number of rows.
 match_data_melted = pd.melt(match_data, id_vars=['Match', 'Home Team', 'Away Team', 'First Half Score', 'Second Half Score',
                                                  'Ball Possession Home', 'Ball Possession Away', 'Goal Attempts Home',
                                                  'Goal Attempts Away', 'Shots on Goal Home', 'Shots on Goal Away',

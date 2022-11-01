@@ -1,0 +1,5 @@
+selenium
+pand<amplify-s3-album
+    path=""
+    (selected)="onAlbumImageSelected($event)">
+</amplify-s3-album>
