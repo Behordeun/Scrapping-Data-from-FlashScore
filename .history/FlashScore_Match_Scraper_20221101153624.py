@@ -72,8 +72,8 @@ def get_match_date(bsTag, date):
         'div', {'class': 'duelParticipant__startTime'}
     ).text
     date = match_date.split(' ')[0]
-    time = match_date.split(' ')[1]
-    return [match_date, date, time]
+    time = match_date.split
+    return [match_date]
 
 # %% Fetch card details
 
@@ -90,6 +90,8 @@ def parse_card(bsTag, card_type):
     return [cardTime, isRed, why]
 
 # %% Fetch substitution data
+
+
 def parse_substitution(bsTag):
     subTime = bsTag.find(
         'div', {'class': 'smv__timeBox'}).text.replace("'", '')

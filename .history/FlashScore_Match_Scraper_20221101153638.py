@@ -90,6 +90,8 @@ def parse_card(bsTag, card_type):
     return [cardTime, isRed, why]
 
 # %% Fetch substitution data
+
+
 def parse_substitution(bsTag):
     subTime = bsTag.find(
         'div', {'class': 'smv__timeBox'}).text.replace("'", '')
